@@ -9,7 +9,8 @@ export default function Title() {
 
         <Box p={"40px"} maxW={{base:"100%",sm:"80%"}} >
             <Card
-                bg={'#070811'} 
+
+                bg={'#070812'} 
                 color={"white"}
                 direction={{ base: 'column', sm: 'row' }}
                 overflow='hidden'
