@@ -1,0 +1,36 @@
+<div class="ask-ravi-widget" data-ask-ravi-widget>
+  <button class="ask-ravi-launcher" type="button" data-ask-ravi-open aria-haspopup="dialog" aria-controls="ask-ravi-modal" aria-expanded="false">
+    <span class="ask-ravi-launcher-label">Ask Ravi</span>
+  </button>
+
+  <section class="ask-ravi-modal" id="ask-ravi-modal" aria-hidden="true">
+    <div class="ask-ravi-backdrop" data-ask-ravi-close></div>
+    <div class="ask-ravi-panel" role="dialog" aria-modal="true" aria-labelledby="ask-ravi-title">
+      <header class="ask-ravi-header">
+        <div>
+          <p class="ask-ravi-kicker">RAG Assistant</p>
+          <h2 id="ask-ravi-title">Ask Ravi</h2>
+        </div>
+        <div class="ask-ravi-actions">
+          <button class="ask-ravi-icon-button" type="button" data-ask-ravi-clear title="Clear chat" aria-label="Clear chat">Clear</button>
+          <button class="ask-ravi-icon-button" type="button" data-ask-ravi-close aria-label="Close chat">x</button>
+        </div>
+      </header>
+
+      <div class="ask-ravi-body">
+        <div class="ask-ravi-history" data-ask-ravi-history aria-live="polite" aria-label="Chat history"></div>
+        <div class="ask-ravi-typing" data-ask-ravi-typing hidden aria-hidden="true">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+
+      <form class="ask-ravi-form" data-ask-ravi-form>
+        <label class="ask-ravi-sr-only" for="ask-ravi-input">Ask Ravi a question</label>
+        <input id="ask-ravi-input" class="ask-ravi-input" type="text" name="message" placeholder="Ask about experience, projects, skills..." autocomplete="off" spellcheck="false">
+        <button class="ask-ravi-send" type="submit">Send</button>
+      </form>
+    </div>
+  </section>
+</div>

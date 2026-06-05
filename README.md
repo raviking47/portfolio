@@ -1,48 +1,130 @@
-# Ravi Tomer Portfolio
+# Ravi Tomer Portfolio + Ask Ravi
 
-Single-page static portfolio built with HTML5, CSS3, and vanilla JavaScript.
+Static portfolio site with a RAG-powered chatbot built on FastAPI, FAISS, LangChain, and Ollama.
 
-## Stack
+## What is included
 
-- HTML5
-- CSS3
-- Vanilla JavaScript
-- No frameworks
-- No build tools
-- Fully static
+- Existing portfolio homepage
+- Floating `Ask Ravi` chat widget
+- FastAPI backend with `/api/chat`
+- Persistent FAISS vector store
+- Ollama embeddings and chat model support
+- Docker support
 
-## Structure
+## Project Layout
 
 ```text
 portfolio/
 ├── index.html
 ├── css/
-│   └── style.css
 ├── js/
-│   ├── app.js
-│   └── terminal.js
 ├── assets/
-│   ├── resume.pdf
-│   └── favicon.ico
+├── frontend/
+│   ├── components/chat.html
+│   ├── css/chat.css
+│   └── js/chat.js
+├── backend/
+│   ├── app.py
+│   ├── rag/
+│   └── vectorstore/
+├── docker-compose.yml
 └── README.md
 ```
 
-## Local preview
+## How it works
 
-Open `index.html` directly in a browser or serve the folder with any static server.
+- The frontend renders the portfolio and loads the `Ask Ravi` widget.
+- The widget sends messages to `POST /api/chat`.
+- The backend loads markdown knowledge files at startup, chunks them, embeds them with Ollama, and stores the index in FAISS on disk.
+- Each request retrieves the top 4 chunks, builds context, and asks the LLM to answer only from that context.
+- If the answer is not grounded in the portfolio, the service returns:
 
-## Deploy to Vercel
+  `I couldn't find that information in Ravi's portfolio.`
 
-1. Push this folder to a Git repository.
-2. Import the repository in Vercel.
-3. Leave the framework preset as `Other`.
-4. Set the output root to the repository root.
-5. Deploy.
+## Local Development
 
-Because this site is fully static, no build command is required.
+### 1. Start Ollama
 
-## Notes
+Make sure Ollama is running and the models are available:
 
-- Replace `assets/resume.pdf` with the real resume file if needed.
-- Update the contact links in `index.html` if your live profiles differ.
-- The terminal button in the bottom-right opens a command-driven modal with preset responses.
+```bash
+ollama pull llama3
+ollama pull nomic-embed-text
+```
+
+### 2. Install backend dependencies
+
+```bash
+cd backend
+pip install -r requirements.txt
+```
+
+### 3. Run the backend
+
+From the repository root:
+
+```bash
+uvicorn backend.app:app --reload --host 0.0.0.0 --port 8000
+```
+
+Open:
+
+```text
+http://localhost:8000
+```
+
+The backend serves the portfolio UI, static assets, and the chat API from the same origin.
+
+## Environment Variables
+
+Copy [.env.example](.env.example) and adjust as needed.
+
+- `OLLAMA_BASE_URL` default: `http://localhost:11434`
+- `OLLAMA_MODEL` default: `llama3`
+- `OLLAMA_EMBED_MODEL` default: `nomic-embed-text`
+- `OLLAMA_TEMPERATURE` default: `0.1`
+- `RAG_TOP_K` default: `4`
+- `RAG_MIN_RELEVANCE_SCORE` default: `0.35`
+- `RAG_REBUILD_INDEX` default: `false`
+
+## Docker
+
+Build and run the backend container:
+
+```bash
+docker compose up --build
+```
+
+Then open:
+
+```text
+http://localhost:8000
+```
+
+## Deployment Notes
+
+- The portfolio is fully static, but the chatbot requires the FastAPI backend.
+- If you deploy the frontend separately, point the widget at the backend by setting `window.ASK_RAVI_CHAT_CONFIG`.
+- If you deploy the backend, it can serve the full site and API from one process.
+
+## Knowledge Base
+
+The RAG assistant reads from:
+
+- `backend/rag/knowledge/resume.md`
+- `backend/rag/knowledge/projects.md`
+- `backend/rag/knowledge/experience.md`
+- `backend/rag/knowledge/skills.md`
+- `backend/rag/knowledge/principles.md`
+
+Update those files when Ravi's portfolio changes, then restart the backend to refresh the vector store.
+
+## Humour Note
+
+This project is intentionally documented like an engineering README because clarity ages better than cleverness.
+
+The assistant follows one simple rule:
+
+- if the portfolio knows it, it answers it
+- if the portfolio does not know it, it admits it
+- if localhost works, production may still disagree

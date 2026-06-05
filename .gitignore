@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.envi
+.venv
+backend/vectorstore/index.faiss
+backend/vectorstore/index.pkl
+backend/vectorstore/index.meta.json

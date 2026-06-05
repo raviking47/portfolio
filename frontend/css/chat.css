@@ -1,0 +1,257 @@
+.ask-ravi-widget {
+  position: fixed;
+  inset: auto auto 1rem 1rem;
+  z-index: 35;
+  font-family: "Inter", system-ui, sans-serif;
+}
+
+.ask-ravi-launcher {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 7.5rem;
+  min-height: 3.25rem;
+  padding: 0.85rem 1.1rem;
+  border: 1px solid rgba(229, 231, 235, 0.95);
+  border-radius: 999px;
+  background: #111111;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  box-shadow: 0 16px 36px rgba(17, 17, 17, 0.18);
+  cursor: pointer;
+}
+
+.ask-ravi-launcher:hover,
+.ask-ravi-launcher:focus-visible {
+  transform: translateY(-2px);
+}
+
+.ask-ravi-modal {
+  position: fixed;
+  inset: 0;
+  display: none;
+}
+
+.ask-ravi-modal.is-open {
+  display: block;
+}
+
+.ask-ravi-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(17, 17, 17, 0.35);
+  backdrop-filter: blur(4px);
+}
+
+.ask-ravi-panel {
+  position: relative;
+  width: min(92vw, 760px);
+  margin: 8vh auto 0;
+  border: 1px solid rgba(229, 231, 235, 0.95);
+  border-radius: 28px;
+  background: #fff;
+  box-shadow: 0 30px 80px rgba(17, 17, 17, 0.18);
+  overflow: hidden;
+}
+
+.ask-ravi-header {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem 1.1rem;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.ask-ravi-kicker {
+  margin: 0 0 0.3rem;
+  color: #16a34a;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.ask-ravi-header h2 {
+  margin: 0;
+  font-family: "Space Grotesk", sans-serif;
+  letter-spacing: -0.04em;
+}
+
+.ask-ravi-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.ask-ravi-icon-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.7rem;
+  min-height: 2.7rem;
+  padding: 0 0.8rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 999px;
+  background: #fff;
+  color: #111111;
+  cursor: pointer;
+}
+
+.ask-ravi-body {
+  display: grid;
+  gap: 0.75rem;
+  max-height: min(60vh, 34rem);
+  padding: 1rem 1.1rem;
+  overflow: auto;
+  background: linear-gradient(180deg, rgba(250, 250, 250, 0.7), rgba(255, 255, 255, 1));
+}
+
+.ask-ravi-history {
+  display: grid;
+  gap: 0.8rem;
+}
+
+.ask-ravi-message {
+  display: grid;
+  gap: 0.2rem;
+}
+
+.ask-ravi-message-role {
+  color: #16a34a;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.74rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.ask-ravi-bubble {
+  width: fit-content;
+  max-width: min(100%, 56ch);
+  padding: 0.85rem 0.95rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 18px;
+  background: #fff;
+  color: #111111;
+  white-space: pre-wrap;
+  line-height: 1.55;
+}
+
+.ask-ravi-message.user {
+  justify-items: end;
+}
+
+.ask-ravi-message.user .ask-ravi-bubble {
+  background: #111111;
+  color: #fff;
+  border-color: #111111;
+}
+
+.ask-ravi-typing {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  width: fit-content;
+  padding: 0.6rem 0.85rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 999px;
+  background: #fff;
+}
+
+.ask-ravi-typing span {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 999px;
+  background: #16a34a;
+  animation: ask-ravi-bounce 900ms infinite ease-in-out;
+}
+
+.ask-ravi-typing span:nth-child(2) {
+  animation-delay: 120ms;
+}
+
+.ask-ravi-typing span:nth-child(3) {
+  animation-delay: 240ms;
+}
+
+.ask-ravi-form {
+  display: flex;
+  gap: 0.75rem;
+  padding: 1rem 1.1rem 1.1rem;
+  border-top: 1px solid #e5e7eb;
+  background: #fff;
+}
+
+.ask-ravi-input {
+  flex: 1;
+  min-width: 0;
+  min-height: 3rem;
+  padding: 0.8rem 0.95rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  background: #fafafa;
+  color: #111111;
+  outline: none;
+}
+
+.ask-ravi-input:focus {
+  border-color: rgba(22, 163, 74, 0.55);
+  box-shadow: 0 0 0 4px rgba(22, 163, 74, 0.08);
+}
+
+.ask-ravi-send {
+  min-width: 5rem;
+  min-height: 3rem;
+  padding: 0.8rem 1rem;
+  border: 1px solid #111111;
+  border-radius: 14px;
+  background: #111111;
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.ask-ravi-sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+@keyframes ask-ravi-bounce {
+  0%, 80%, 100% {
+    transform: translateY(0);
+    opacity: 0.55;
+  }
+  40% {
+    transform: translateY(-4px);
+    opacity: 1;
+  }
+}
+
+@media (max-width: 640px) {
+  .ask-ravi-widget {
+    inset: auto 1rem 1rem 1rem;
+  }
+
+  .ask-ravi-launcher {
+    min-width: auto;
+    width: 100%;
+  }
+
+  .ask-ravi-panel {
+    width: calc(100vw - 1rem);
+    margin-top: 5vh;
+    border-radius: 22px;
+  }
+
+  .ask-ravi-form {
+    flex-direction: column;
+  }
+}
