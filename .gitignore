@@ -1,7 +1,19 @@
+# Python cache files
 __pycache__/
-*.pyc
-.envi
-.venv
+*.py[cod]
+
+# Python virtual environments
+.env
+.venv/
+venv/
+
+# FAISS vector store files
 backend/vectorstore/index.faiss
 backend/vectorstore/index.pkl
 backend/vectorstore/index.meta.json
+
+# Node.js dependencies
+node_modules/
+
+# Next.js build output
+.next/

@@ -74,6 +74,7 @@ http://localhost:8000
 ```
 
 The backend serves the portfolio UI, static assets, and the chat API from the same origin.
+It loads `.env` from the repository root automatically, so local environment variables apply without manual export.
 
 ## Environment Variables
 
@@ -86,6 +87,7 @@ Copy [.env.example](.env.example) and adjust as needed.
 - `RAG_TOP_K` default: `4`
 - `RAG_MIN_RELEVANCE_SCORE` default: `0.35`
 - `RAG_REBUILD_INDEX` default: `false`
+When using Docker, `docker-compose.yml` now reads the same environment variables from the current shell or `.env` file.
 
 ## Docker
 

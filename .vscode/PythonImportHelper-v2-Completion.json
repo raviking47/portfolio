@@ -1,0 +1,542 @@
+[
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Iterable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "FAISS",
+        "importPath": "langchain_community.vectorstores",
+        "description": "langchain_community.vectorstores",
+        "isExtraImport": true,
+        "detail": "langchain_community.vectorstores",
+        "documentation": {}
+    },
+    {
+        "label": "FAISS",
+        "importPath": "langchain_community.vectorstores",
+        "description": "langchain_community.vectorstores",
+        "isExtraImport": true,
+        "detail": "langchain_community.vectorstores",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "langchain_core.documents",
+        "description": "langchain_core.documents",
+        "isExtraImport": true,
+        "detail": "langchain_core.documents",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "langchain_core.documents",
+        "description": "langchain_core.documents",
+        "isExtraImport": true,
+        "detail": "langchain_core.documents",
+        "documentation": {}
+    },
+    {
+        "label": "OllamaEmbeddings",
+        "importPath": "langchain_ollama",
+        "description": "langchain_ollama",
+        "isExtraImport": true,
+        "detail": "langchain_ollama",
+        "documentation": {}
+    },
+    {
+        "label": "ChatOllama",
+        "importPath": "langchain_ollama",
+        "description": "langchain_ollama",
+        "isExtraImport": true,
+        "detail": "langchain_ollama",
+        "documentation": {}
+    },
+    {
+        "label": "RecursiveCharacterTextSplitter",
+        "importPath": "langchain_text_splitters",
+        "description": "langchain_text_splitters",
+        "isExtraImport": true,
+        "detail": "langchain_text_splitters",
+        "documentation": {}
+    },
+    {
+        "label": "choice",
+        "importPath": "random",
+        "description": "random",
+        "isExtraImport": true,
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "asynccontextmanager",
+        "importPath": "contextlib",
+        "description": "contextlib",
+        "isExtraImport": true,
+        "detail": "contextlib",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "CORSMiddleware",
+        "importPath": "fastapi.middleware.cors",
+        "description": "fastapi.middleware.cors",
+        "isExtraImport": true,
+        "detail": "fastapi.middleware.cors",
+        "documentation": {}
+    },
+    {
+        "label": "FileResponse",
+        "importPath": "fastapi.responses",
+        "description": "fastapi.responses",
+        "isExtraImport": true,
+        "detail": "fastapi.responses",
+        "documentation": {}
+    },
+    {
+        "label": "StaticFiles",
+        "importPath": "fastapi.staticfiles",
+        "description": "fastapi.staticfiles",
+        "isExtraImport": true,
+        "detail": "fastapi.staticfiles",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "VectorstoreState",
+        "kind": 6,
+        "importPath": "backend.rag.ingest",
+        "description": "backend.rag.ingest",
+        "peekOfCode": "class VectorstoreState:\n    vectorstore: FAISS\n    source_signature: str\ndef get_embeddings() -> OllamaEmbeddings:\n    return OllamaEmbeddings(\n        model=get_env(\"OLLAMA_EMBED_MODEL\", \"nomic-embed-text\"),\n        base_url=get_env(\"OLLAMA_BASE_URL\", \"http://localhost:11434\"),\n    )\ndef get_env(name: str, default: str) -> str:\n    import os",
+        "detail": "backend.rag.ingest",
+        "documentation": {}
+    },
+    {
+        "label": "get_embeddings",
+        "kind": 2,
+        "importPath": "backend.rag.ingest",
+        "description": "backend.rag.ingest",
+        "peekOfCode": "def get_embeddings() -> OllamaEmbeddings:\n    return OllamaEmbeddings(\n        model=get_env(\"OLLAMA_EMBED_MODEL\", \"nomic-embed-text\"),\n        base_url=get_env(\"OLLAMA_BASE_URL\", \"http://localhost:11434\"),\n    )\ndef get_env(name: str, default: str) -> str:\n    import os\n    return os.getenv(name, default)\ndef load_knowledge_documents() -> list[Document]:\n    documents: list[Document] = []",
+        "detail": "backend.rag.ingest",
+        "documentation": {}
+    },
+    {
+        "label": "get_env",
+        "kind": 2,
+        "importPath": "backend.rag.ingest",
+        "description": "backend.rag.ingest",
+        "peekOfCode": "def get_env(name: str, default: str) -> str:\n    import os\n    return os.getenv(name, default)\ndef load_knowledge_documents() -> list[Document]:\n    documents: list[Document] = []\n    for path in sorted(KNOWLEDGE_DIR.glob(\"*.md\")):\n        content = path.read_text(encoding=\"utf-8\").strip()\n        if not content:\n            continue\n        documents.append(",
+        "detail": "backend.rag.ingest",
+        "documentation": {}
+    },
+    {
+        "label": "load_knowledge_documents",
+        "kind": 2,
+        "importPath": "backend.rag.ingest",
+        "description": "backend.rag.ingest",
+        "peekOfCode": "def load_knowledge_documents() -> list[Document]:\n    documents: list[Document] = []\n    for path in sorted(KNOWLEDGE_DIR.glob(\"*.md\")):\n        content = path.read_text(encoding=\"utf-8\").strip()\n        if not content:\n            continue\n        documents.append(\n            Document(\n                page_content=content,\n                metadata={",
+        "detail": "backend.rag.ingest",
+        "documentation": {}
+    },
+    {
+        "label": "chunk_documents",
+        "kind": 2,
+        "importPath": "backend.rag.ingest",
+        "description": "backend.rag.ingest",
+        "peekOfCode": "def chunk_documents(documents: Iterable[Document]) -> list[Document]:\n    splitter = RecursiveCharacterTextSplitter(\n        chunk_size=850,\n        chunk_overlap=120,\n        separators=[\"\\n## \", \"\\n### \", \"\\n- \", \"\\n\\n\", \"\\n\", \" \"],\n    )\n    chunks: list[Document] = []\n    for document in documents:\n        split_docs = splitter.split_documents([document])\n        for index, chunk in enumerate(split_docs):",
+        "detail": "backend.rag.ingest",
+        "documentation": {}
+    },
+    {
+        "label": "build_source_signature",
+        "kind": 2,
+        "importPath": "backend.rag.ingest",
+        "description": "backend.rag.ingest",
+        "peekOfCode": "def build_source_signature() -> str:\n    manifest = []\n    for path in sorted(KNOWLEDGE_DIR.glob(\"*.md\")):\n        stat = path.stat()\n        manifest.append(\n            {\n                \"file\": path.name,\n                \"size\": stat.st_size,\n                \"mtime_ns\": stat.st_mtime_ns,\n            }",
+        "detail": "backend.rag.ingest",
+        "documentation": {}
+    },
+    {
+        "label": "save_metadata",
+        "kind": 2,
+        "importPath": "backend.rag.ingest",
+        "description": "backend.rag.ingest",
+        "peekOfCode": "def save_metadata(signature: str, document_count: int) -> None:\n    VECTORSTORE_DIR.mkdir(parents=True, exist_ok=True)\n    META_FILE.write_text(\n        json.dumps(\n            {\n                \"source_signature\": signature,\n                \"document_count\": document_count,\n            },\n            indent=2,\n        ),",
+        "detail": "backend.rag.ingest",
+        "documentation": {}
+    },
+    {
+        "label": "load_metadata",
+        "kind": 2,
+        "importPath": "backend.rag.ingest",
+        "description": "backend.rag.ingest",
+        "peekOfCode": "def load_metadata() -> dict[str, str] | None:\n    if not META_FILE.exists():\n        return None\n    return json.loads(META_FILE.read_text(encoding=\"utf-8\"))\ndef metadata_matches(signature: str) -> bool:\n    metadata = load_metadata()\n    if not metadata:\n        return False\n    return metadata.get(\"source_signature\") == signature and INDEX_FILE.exists()\ndef build_vectorstore(force_rebuild: bool = False) -> FAISS:",
+        "detail": "backend.rag.ingest",
+        "documentation": {}
+    },
+    {
+        "label": "metadata_matches",
+        "kind": 2,
+        "importPath": "backend.rag.ingest",
+        "description": "backend.rag.ingest",
+        "peekOfCode": "def metadata_matches(signature: str) -> bool:\n    metadata = load_metadata()\n    if not metadata:\n        return False\n    return metadata.get(\"source_signature\") == signature and INDEX_FILE.exists()\ndef build_vectorstore(force_rebuild: bool = False) -> FAISS:\n    signature = build_source_signature()\n    embeddings = get_embeddings()\n    if not force_rebuild and metadata_matches(signature):\n        return FAISS.load_local(",
+        "detail": "backend.rag.ingest",
+        "documentation": {}
+    },
+    {
+        "label": "build_vectorstore",
+        "kind": 2,
+        "importPath": "backend.rag.ingest",
+        "description": "backend.rag.ingest",
+        "peekOfCode": "def build_vectorstore(force_rebuild: bool = False) -> FAISS:\n    signature = build_source_signature()\n    embeddings = get_embeddings()\n    if not force_rebuild and metadata_matches(signature):\n        return FAISS.load_local(\n            str(VECTORSTORE_DIR),\n            embeddings,\n            allow_dangerous_deserialization=True,\n        )\n    documents = load_knowledge_documents()",
+        "detail": "backend.rag.ingest",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_DIR",
+        "kind": 5,
+        "importPath": "backend.rag.ingest",
+        "description": "backend.rag.ingest",
+        "peekOfCode": "ROOT_DIR = Path(__file__).resolve().parents[2]\nKNOWLEDGE_DIR = Path(__file__).resolve().parent / \"knowledge\"\nVECTORSTORE_DIR = ROOT_DIR / \"backend\" / \"vectorstore\"\nINDEX_FILE = VECTORSTORE_DIR / \"index.faiss\"\nMETA_FILE = VECTORSTORE_DIR / \"index.meta.json\"\n@dataclass(frozen=True)\nclass VectorstoreState:\n    vectorstore: FAISS\n    source_signature: str\ndef get_embeddings() -> OllamaEmbeddings:",
+        "detail": "backend.rag.ingest",
+        "documentation": {}
+    },
+    {
+        "label": "KNOWLEDGE_DIR",
+        "kind": 5,
+        "importPath": "backend.rag.ingest",
+        "description": "backend.rag.ingest",
+        "peekOfCode": "KNOWLEDGE_DIR = Path(__file__).resolve().parent / \"knowledge\"\nVECTORSTORE_DIR = ROOT_DIR / \"backend\" / \"vectorstore\"\nINDEX_FILE = VECTORSTORE_DIR / \"index.faiss\"\nMETA_FILE = VECTORSTORE_DIR / \"index.meta.json\"\n@dataclass(frozen=True)\nclass VectorstoreState:\n    vectorstore: FAISS\n    source_signature: str\ndef get_embeddings() -> OllamaEmbeddings:\n    return OllamaEmbeddings(",
+        "detail": "backend.rag.ingest",
+        "documentation": {}
+    },
+    {
+        "label": "VECTORSTORE_DIR",
+        "kind": 5,
+        "importPath": "backend.rag.ingest",
+        "description": "backend.rag.ingest",
+        "peekOfCode": "VECTORSTORE_DIR = ROOT_DIR / \"backend\" / \"vectorstore\"\nINDEX_FILE = VECTORSTORE_DIR / \"index.faiss\"\nMETA_FILE = VECTORSTORE_DIR / \"index.meta.json\"\n@dataclass(frozen=True)\nclass VectorstoreState:\n    vectorstore: FAISS\n    source_signature: str\ndef get_embeddings() -> OllamaEmbeddings:\n    return OllamaEmbeddings(\n        model=get_env(\"OLLAMA_EMBED_MODEL\", \"nomic-embed-text\"),",
+        "detail": "backend.rag.ingest",
+        "documentation": {}
+    },
+    {
+        "label": "INDEX_FILE",
+        "kind": 5,
+        "importPath": "backend.rag.ingest",
+        "description": "backend.rag.ingest",
+        "peekOfCode": "INDEX_FILE = VECTORSTORE_DIR / \"index.faiss\"\nMETA_FILE = VECTORSTORE_DIR / \"index.meta.json\"\n@dataclass(frozen=True)\nclass VectorstoreState:\n    vectorstore: FAISS\n    source_signature: str\ndef get_embeddings() -> OllamaEmbeddings:\n    return OllamaEmbeddings(\n        model=get_env(\"OLLAMA_EMBED_MODEL\", \"nomic-embed-text\"),\n        base_url=get_env(\"OLLAMA_BASE_URL\", \"http://localhost:11434\"),",
+        "detail": "backend.rag.ingest",
+        "documentation": {}
+    },
+    {
+        "label": "META_FILE",
+        "kind": 5,
+        "importPath": "backend.rag.ingest",
+        "description": "backend.rag.ingest",
+        "peekOfCode": "META_FILE = VECTORSTORE_DIR / \"index.meta.json\"\n@dataclass(frozen=True)\nclass VectorstoreState:\n    vectorstore: FAISS\n    source_signature: str\ndef get_embeddings() -> OllamaEmbeddings:\n    return OllamaEmbeddings(\n        model=get_env(\"OLLAMA_EMBED_MODEL\", \"nomic-embed-text\"),\n        base_url=get_env(\"OLLAMA_BASE_URL\", \"http://localhost:11434\"),\n    )",
+        "detail": "backend.rag.ingest",
+        "documentation": {}
+    },
+    {
+        "label": "build_prompt",
+        "kind": 2,
+        "importPath": "backend.rag.prompts",
+        "description": "backend.rag.prompts",
+        "peekOfCode": "def build_prompt(context: str, question: str) -> str:\n    return f\"\"\"System:\n{SYSTEM_PROMPT}\nRetrieved context:\n{context}\nQuestion:\n{question}\nAnswer using only the retrieved context.\nIf the context does not contain the answer, return exactly:\nI couldn't find that information in Ravi's portfolio.",
+        "detail": "backend.rag.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "random_joke",
+        "kind": 2,
+        "importPath": "backend.rag.prompts",
+        "description": "backend.rag.prompts",
+        "peekOfCode": "def random_joke() -> str:\n    return choice(ENGINEERING_JOKES)",
+        "detail": "backend.rag.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "UNAVAILABLE_MESSAGE",
+        "kind": 5,
+        "importPath": "backend.rag.prompts",
+        "description": "backend.rag.prompts",
+        "peekOfCode": "UNAVAILABLE_MESSAGE = \"I couldn't find that information in Ravi's portfolio.\"\nGREETING_MESSAGE = \"Hi. Ask me about Ravi's experience, projects, skills, technologies, or engineering philosophy.\"\nENGINEERING_JOKES = [\n    \"Works on localhost is not a deployment strategy.\",\n    \"Every AI demo works. Production is the hard part.\",\n    \"A prompt is not an architecture.\",\n    \"Humans remain harder to debug than software.\",\n    \"The fastest API request is the one you never make.\",\n]\nSYSTEM_PROMPT = \"\"\"You are RaviGPT.",
+        "detail": "backend.rag.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "GREETING_MESSAGE",
+        "kind": 5,
+        "importPath": "backend.rag.prompts",
+        "description": "backend.rag.prompts",
+        "peekOfCode": "GREETING_MESSAGE = \"Hi. Ask me about Ravi's experience, projects, skills, technologies, or engineering philosophy.\"\nENGINEERING_JOKES = [\n    \"Works on localhost is not a deployment strategy.\",\n    \"Every AI demo works. Production is the hard part.\",\n    \"A prompt is not an architecture.\",\n    \"Humans remain harder to debug than software.\",\n    \"The fastest API request is the one you never make.\",\n]\nSYSTEM_PROMPT = \"\"\"You are RaviGPT.\nYou answer questions about Ravi Tomer.",
+        "detail": "backend.rag.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "ENGINEERING_JOKES",
+        "kind": 5,
+        "importPath": "backend.rag.prompts",
+        "description": "backend.rag.prompts",
+        "peekOfCode": "ENGINEERING_JOKES = [\n    \"Works on localhost is not a deployment strategy.\",\n    \"Every AI demo works. Production is the hard part.\",\n    \"A prompt is not an architecture.\",\n    \"Humans remain harder to debug than software.\",\n    \"The fastest API request is the one you never make.\",\n]\nSYSTEM_PROMPT = \"\"\"You are RaviGPT.\nYou answer questions about Ravi Tomer.\nUse only the retrieved context.",
+        "detail": "backend.rag.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "SYSTEM_PROMPT",
+        "kind": 5,
+        "importPath": "backend.rag.prompts",
+        "description": "backend.rag.prompts",
+        "peekOfCode": "SYSTEM_PROMPT = \"\"\"You are RaviGPT.\nYou answer questions about Ravi Tomer.\nUse only the retrieved context.\nNever invent experience, projects, companies, skills, technologies, achievements, or dates.\nIf information is unavailable, say exactly:\nI couldn't find that information in Ravi's portfolio.\nKeep the answer grounded, concise, and useful.\n\"\"\"\ndef build_prompt(context: str, question: str) -> str:\n    return f\"\"\"System:",
+        "detail": "backend.rag.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "RetrievalResult",
+        "kind": 6,
+        "importPath": "backend.rag.retriever",
+        "description": "backend.rag.retriever",
+        "peekOfCode": "class RetrievalResult:\n    documents: Sequence[Document]\n    score: float | None = None\nclass PortfolioRAG:\n    def __init__(self) -> None:\n        self.model_name = os.getenv(\"OLLAMA_MODEL\", \"llama3\")\n        self.ollama_base_url = os.getenv(\"OLLAMA_BASE_URL\", \"http://localhost:11434\")\n        self.temperature = float(os.getenv(\"OLLAMA_TEMPERATURE\", \"0.1\"))\n        self.top_k = int(os.getenv(\"RAG_TOP_K\", \"4\"))\n        self.min_relevance_score = float(os.getenv(\"RAG_MIN_RELEVANCE_SCORE\", \"0.35\"))",
+        "detail": "backend.rag.retriever",
+        "documentation": {}
+    },
+    {
+        "label": "PortfolioRAG",
+        "kind": 6,
+        "importPath": "backend.rag.retriever",
+        "description": "backend.rag.retriever",
+        "peekOfCode": "class PortfolioRAG:\n    def __init__(self) -> None:\n        self.model_name = os.getenv(\"OLLAMA_MODEL\", \"llama3\")\n        self.ollama_base_url = os.getenv(\"OLLAMA_BASE_URL\", \"http://localhost:11434\")\n        self.temperature = float(os.getenv(\"OLLAMA_TEMPERATURE\", \"0.1\"))\n        self.top_k = int(os.getenv(\"RAG_TOP_K\", \"4\"))\n        self.min_relevance_score = float(os.getenv(\"RAG_MIN_RELEVANCE_SCORE\", \"0.35\"))\n        self.knowledge_dir = Path(__file__).resolve().parent / \"knowledge\"\n        self.vectorstore: FAISS | None = None\n        self.llm: ChatOllama | None = None",
+        "detail": "backend.rag.retriever",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "backend.rag.retriever",
+        "description": "backend.rag.retriever",
+        "peekOfCode": "logger = logging.getLogger(\"ask_ravi\")\n@dataclass\nclass RetrievalResult:\n    documents: Sequence[Document]\n    score: float | None = None\nclass PortfolioRAG:\n    def __init__(self) -> None:\n        self.model_name = os.getenv(\"OLLAMA_MODEL\", \"llama3\")\n        self.ollama_base_url = os.getenv(\"OLLAMA_BASE_URL\", \"http://localhost:11434\")\n        self.temperature = float(os.getenv(\"OLLAMA_TEMPERATURE\", \"0.1\"))",
+        "detail": "backend.rag.retriever",
+        "documentation": {}
+    },
+    {
+        "label": "ChatRequest",
+        "kind": 6,
+        "importPath": "backend.app",
+        "description": "backend.app",
+        "peekOfCode": "class ChatRequest(BaseModel):\n    message: str = Field(..., min_length=1, max_length=1000)\n@asynccontextmanager\nasync def lifespan(app: FastAPI):\n    rag = PortfolioRAG()\n    rag.initialize()\n    app.state.rag = rag\n    yield\napp = FastAPI(title=\"Ask Ravi\", version=\"1.0.0\", lifespan=lifespan)\napp.add_middleware(",
+        "detail": "backend.app",
+        "documentation": {}
+    },
+    {
+        "label": "health",
+        "kind": 2,
+        "importPath": "backend.app",
+        "description": "backend.app",
+        "peekOfCode": "def health():\n    return {\"status\": \"ok\"}\n@app.get(\"/api/health\")\ndef api_health():\n    return {\"status\": \"ok\"}\n@app.post(\"/api/chat\")\ndef chat(payload: ChatRequest):\n    message = payload.message.strip()\n    if not message:\n        raise HTTPException(status_code=400, detail=\"Message is required.\")",
+        "detail": "backend.app",
+        "documentation": {}
+    },
+    {
+        "label": "api_health",
+        "kind": 2,
+        "importPath": "backend.app",
+        "description": "backend.app",
+        "peekOfCode": "def api_health():\n    return {\"status\": \"ok\"}\n@app.post(\"/api/chat\")\ndef chat(payload: ChatRequest):\n    message = payload.message.strip()\n    if not message:\n        raise HTTPException(status_code=400, detail=\"Message is required.\")\n    rag: PortfolioRAG = app.state.rag\n    return {\"answer\": rag.answer(message)}\n@app.get(\"/\")",
+        "detail": "backend.app",
+        "documentation": {}
+    },
+    {
+        "label": "chat",
+        "kind": 2,
+        "importPath": "backend.app",
+        "description": "backend.app",
+        "peekOfCode": "def chat(payload: ChatRequest):\n    message = payload.message.strip()\n    if not message:\n        raise HTTPException(status_code=400, detail=\"Message is required.\")\n    rag: PortfolioRAG = app.state.rag\n    return {\"answer\": rag.answer(message)}\n@app.get(\"/\")\ndef index():\n    return FileResponse(ROOT_DIR / \"index.html\")",
+        "detail": "backend.app",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 2,
+        "importPath": "backend.app",
+        "description": "backend.app",
+        "peekOfCode": "def index():\n    return FileResponse(ROOT_DIR / \"index.html\")",
+        "detail": "backend.app",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_DIR",
+        "kind": 5,
+        "importPath": "backend.app",
+        "description": "backend.app",
+        "peekOfCode": "ROOT_DIR = Path(__file__).resolve().parents[1]\nAPP_DIR = Path(__file__).resolve().parent\nlogging.basicConfig(level=logging.INFO, format=\"%(asctime)s %(levelname)s %(name)s: %(message)s\")\nclass ChatRequest(BaseModel):\n    message: str = Field(..., min_length=1, max_length=1000)\n@asynccontextmanager\nasync def lifespan(app: FastAPI):\n    rag = PortfolioRAG()\n    rag.initialize()\n    app.state.rag = rag",
+        "detail": "backend.app",
+        "documentation": {}
+    },
+    {
+        "label": "APP_DIR",
+        "kind": 5,
+        "importPath": "backend.app",
+        "description": "backend.app",
+        "peekOfCode": "APP_DIR = Path(__file__).resolve().parent\nlogging.basicConfig(level=logging.INFO, format=\"%(asctime)s %(levelname)s %(name)s: %(message)s\")\nclass ChatRequest(BaseModel):\n    message: str = Field(..., min_length=1, max_length=1000)\n@asynccontextmanager\nasync def lifespan(app: FastAPI):\n    rag = PortfolioRAG()\n    rag.initialize()\n    app.state.rag = rag\n    yield",
+        "detail": "backend.app",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "backend.app",
+        "description": "backend.app",
+        "peekOfCode": "app = FastAPI(title=\"Ask Ravi\", version=\"1.0.0\", lifespan=lifespan)\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=[\"*\"],\n    allow_credentials=True,\n    allow_methods=[\"*\"],\n    allow_headers=[\"*\"],\n)\napp.mount(\"/css\", StaticFiles(directory=str(ROOT_DIR / \"css\")), name=\"css\")\napp.mount(\"/js\", StaticFiles(directory=str(ROOT_DIR / \"js\")), name=\"js\")",
+        "detail": "backend.app",
+        "documentation": {}
+    }
+]
